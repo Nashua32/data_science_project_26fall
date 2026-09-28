@@ -1,0 +1,7 @@
+# First-Principles Simulation & Numerical Solvers
+numpy>=1.24.0,<2.0.0
+scipy>=1.10.0
+
+# Visualization & Notebook Support
+matplotlib>=3.7.0
+jupyterlab>=4.0.0
