@@ -1,4 +1,4 @@
-# src/simulation/william_otto.py
+# src/simulation/william_otto_reactor.py
 
 import numpy as np
 from scipy.integrate import solve_ivp
