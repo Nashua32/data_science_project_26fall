@@ -5,6 +5,9 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from pathlib import Path
 from src.simulation.william_otto_reactor_model import WilliamsOttoReactor
+#from william_otto_reactor_model import WilliamsOttoReactor
+import os
+
 
 reactor = WilliamsOttoReactor() #create rector
 
@@ -97,9 +100,12 @@ df = pd.DataFrame({
     "QB": QB_traj,
     "Tr": Tr_traj,
 })
-script_dir = Path(__file__).resolve().parent
-data_dir = script_dir.parent / "data"
-file_path = data_dir / "data_generic.csv"
+
+#changed this here, hope it's okay
+#script_dir = Path(__file__).resolve().parent
+#data_dir = script_dir.parent / "data"
+#file_path = data_dir / "data_generic.csv"
+file_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "data", "data_generic.csv"))
 df.to_csv(file_path, index=False)
 
 #plotting inputs

@@ -5,3 +5,6 @@ scipy>=1.10.0
 # Visualization & Notebook Support
 matplotlib>=3.7.0
 jupyterlab>=4.0.0
+
+#data handling
+pandas

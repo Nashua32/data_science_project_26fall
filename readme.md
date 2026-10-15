@@ -8,11 +8,11 @@ Here we define the mathematical models that we can use for generating the data
 
 ### src/data
 
-Here we use the files defined in src/simulation to actually generate data for our models that we then store in the data folder. We also transform data here in a way so that it can be used as input for the machine learning models
+Here we use the files defined in src/simulation to actually generate data for our models that we then store in the project_root/data folder. We also transform data here in a way so that it can be used as input for the machine learning models
 
 ### src/models
 
-Here we train the ML models and store them in the models folder
+Here we train the ML models and store them in the project_root/models folder
 
 ### src/evaluation 
 
