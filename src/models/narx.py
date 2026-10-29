@@ -5,7 +5,7 @@ potential problems: cG values very small?
 
 
 TODO: maybe try better scaling?
-more details?
+    - maybe not fix the lags at 5, find a better one
 """
 
 import numpy as np
