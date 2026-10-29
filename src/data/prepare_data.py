@@ -1,11 +1,6 @@
 """
 Comments:
-    - the resulting df/csv is pretty huge, is this the best way?
-    - so far, lag is fixed 5, is this good?
-
-
-
-    - are they called features? 
+    - TODO: do not fix lags at 5, find a more optimal one
 """
 
 import numpy as np

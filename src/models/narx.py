@@ -5,7 +5,7 @@ potential problems: cG values very small?
 
 
 TODO: maybe try better scaling?
-more details?
+    - maybe not fix the lags at 5, find a better one
 """
 
 import numpy as np
@@ -54,6 +54,19 @@ else:
 
 
 y_pred = model.predict(X_test)
+
+#save y_pred and y_test to a csv file
+y_test_file_name = "y_test_results.csv"
+y_pred_file_name = "y_pred_results.csv"
+y_test_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "data", y_test_file_name))
+y_pred_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "data", y_pred_file_name))
+
+y_test.to_csv(y_test_path, index=True)
+y_pred_df = pd.DataFrame(y_pred, columns=features, index=y_test.index)
+y_pred_df.to_csv(y_pred_path, index=True)
+
+print(f"Test targets saved to: {y_test_path}")
+print(f"Predictions saved to: {y_pred_path}")
 
 
 mse = mean_squared_error(y_test, y_pred, multioutput='raw_values')
