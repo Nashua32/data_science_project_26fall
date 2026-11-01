@@ -1,0 +1,64 @@
+{
+  "sample_time_unit": "min",
+  "input_units": [
+    "dm3/min",
+    "K"
+  ],
+  "output_units": [
+    "mol/dm3",
+    "mol/dm3",
+    "mol/dm3",
+    "mol/dm3",
+    "mol/dm3",
+    "mol/dm3"
+  ],
+  "input_names": [
+    "QB",
+    "Tr"
+  ],
+  "output_names": [
+    "cA",
+    "cB",
+    "cC",
+    "cP",
+    "cE",
+    "cG"
+  ],
+  "train_samples": 12000,
+  "validation_samples": 6000,
+  "train_seed": 42,
+  "validation_seed": 43,
+  "excitation": "Independent uniform random steps with randomized dwell times",
+  "alignment": "Y[k] at t[k]; U[k] held from t[k] to t[k+1]",
+  "centering": "Subtract the shared nominal input and equilibrium output; no scaling",
+  "n4sid_usage": "Use U_centered, Y_centered and Ts_min; no precomputed lags",
+  "reactor_parameters": {
+    "k10": 9959400.0,
+    "k20": 8661240000.0,
+    "k30": 9959400.0,
+    "E1": 6666.7,
+    "E2": 8333.3,
+    "E3": 11111.0,
+    "cA0": 10.0,
+    "cB0": 10.0,
+    "V": 2105.0,
+    "QA": 112.35
+  },
+  "dt": 0.1,
+  "operating_input": [
+    270.0,
+    360.65
+  ],
+  "amplitudes": [
+    18.0,
+    2.0
+  ],
+  "hold_times": [
+    0.5,
+    1.0,
+    2.0,
+    4.0,
+    8.0
+  ],
+  "noise_std": 0.0
+}
