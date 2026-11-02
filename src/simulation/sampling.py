@@ -19,24 +19,19 @@ def draw_dwell_times(rng, n_steps, hold_range, log_uniform=True):
     return np.array(dwell)
 
 
-def design_points(rng, n_stages):
-    unit = qmc.LatinHypercube(d=NU, seed=rng).random(n_stages)
-    return qmc.scale(unit, U_LO, U_HI)
+def make_aprbs(rng, n_steps, hold_range, dwelltime_same, log_uniform=True):
+    if dwelltime_same==True:                                            # inputs with same dwell times, sampled on same hypercube
+        dwell = draw_dwell_times(rng, n_steps, hold_range, log_uniform)
+        unit = qmc.LatinHypercube(d=NU, seed=rng).random(len(dwell))
+        amp = qmc.scale(unit, U_LO, U_HI)
+        U = np.repeat(amp, dwell, axis=0)[:n_steps]
+    else:                                                               # pick inputs with different dwell times, different hypercubes
+        cols = []
+        for i in range(NU):
+            dwell = draw_dwell_times(rng, n_steps, hold_range, log_uniform)
+            unit = qmc.LatinHypercube(d=1, seed=rng).random(len(dwell))
+            amp = qmc.scale(unit, U_LO[i], U_HI[i])
+            cols.append(np.repeat(amp, dwell)[:n_steps]) # repeat each amplitude dwell times amount
+        U =  np.column_stack(cols)
+    return U
 
-
-def make_aprbs(rng, n_steps, hold_range, ramp_steps=0, log_uniform=True):
-    """APRBS-like input signal (n_steps x NU).
-    - dwell time of every stage: random in hold_range (samples)
-    - amplitudes: Latin hypercube design points in [U_LO, U_HI]
-    - ramp_steps > 0: linear ramp (in samples) from the previous to the new design point
-      before each dwell phase; ramp_steps = 0 gives the classic APRBS with jumps."""
-    dwell = draw_dwell_times(rng, n_steps, hold_range, log_uniform)
-    d = design_points(rng, len(dwell))
-    u, prev = [], d[0]
-    for h, d_s in zip(dwell, d):
-        if ramp_steps > 0:
-            alpha = np.arange(1, ramp_steps + 1)[:, None] / ramp_steps
-            u.append(prev + alpha * (d_s - prev))       # ramp phase
-        u.append(np.tile(d_s, (h, 1)))                  # dwell phase
-        prev = d_s
-    return np.vstack(u)[:n_steps]

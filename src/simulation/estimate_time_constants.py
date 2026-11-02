@@ -5,6 +5,7 @@ Two independent methods at several operating points (grid over QB and Tr):
   2. Step responses of the nonlinear model -> time to 63 % (t63) and settling time (t95)
 Time unit: minutes.
 """
+import sys;from pathlib import Path;sys.path.append(str(Path(__file__).resolve().parents[2]))
 import numpy as np
 from scipy.integrate import solve_ivp
 from scipy.optimize import fsolve
