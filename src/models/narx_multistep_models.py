@@ -2,6 +2,9 @@
 Comments: basic RF performs a lot worse than LinReg (probably because it averages out a lot more peaks), but still better than the trivial model
 
 with 200 steps, it took like 30 minutes to train the GBR
+
+TODO: save the models
+    - maybe leave out GBR
 """
 
 import sys
@@ -13,7 +16,7 @@ from sklearn.multioutput import MultiOutputRegressor
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import StandardScaler
-from functions import make_windows_multistep
+from helper_functions import make_windows_multistep
 
 # load data
 d = np.load("data/aprbs_data.npz")
@@ -33,7 +36,7 @@ wtrain, wtest = w[:n_tr - H], w[n_tr:]
 scaler = StandardScaler()
 Xtrain_s, Xtest_s = scaler.fit_transform(Xtrain), scaler.transform(Xtest)
 
-# Fit Models (Both Linear Regression and Random Forest included)
+# Fit Models
 models = {
     "LinReg": LinearRegression(),
     "RF": RandomForestRegressor(n_estimators=50, min_samples_leaf=5, n_jobs=-1, random_state=42),
