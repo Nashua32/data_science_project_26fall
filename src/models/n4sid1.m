@@ -266,13 +266,35 @@ function [metrics, Yhat, evaluationModel, x0] = evaluateDataset( ...
     for j = 1:numel(outputNames)
         nexttile;
 
-        plot(time, Ytrue(:, j), 'k', 'LineWidth', 1);
+        plot(time, Ytrue(:, j), 'k', 'LineWidth', 1, 'Color', "b");
         hold on;
 
         plot(time, Yhat(:, j), '--r', 'LineWidth', 1);
 
         xlabel('Time since segment start [min]');
         ylabel('Concentration [mol/dm^3]');
+
+        title(sprintf('%s: MAE %.3g | RMSE %.3g', ...
+            outputNames{j}, mae(j), rmse(j)));
+
+        legend('Reactor data', 'N4SID', 'Location', 'best');
+        grid on;
+    end
+
+    sgtitle(datasetName);
+    %% Plot validation concetration plots
+    figure('Name', datasetName);
+    tiledlayout(3, 2);
+
+    for j = 1:numel(outputNames)
+        nexttile;
+
+        scatter(Ytrue(:, j), Yhat(:, j), 10);
+        axis square;
+        hold on;
+
+        xlabel('Actual Concentration [mol/dm^3]');
+        ylabel('Predicted Concetration [mol/dm^3]');
 
         title(sprintf('%s: MAE %.3g | RMSE %.3g', ...
             outputNames{j}, mae(j), rmse(j)));

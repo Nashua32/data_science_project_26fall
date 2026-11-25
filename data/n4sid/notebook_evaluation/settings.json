@@ -1,0 +1,19 @@
+{
+  "native_dt_min": 1.0,
+  "horizon_steps": 20,
+  "max_windows": null,
+  "initialization": "Current measured concentrations only; N4SID uses pinv(C). No future outputs.",
+  "metrics": "Rolling-horizon forecasts; overlapping forecasts count as separate forecast errors.",
+  "datasets": [
+    {
+      "name": "Notebook test",
+      "dt_min": 1,
+      "notes": ""
+    },
+    {
+      "name": "Original validation",
+      "dt_min": 1.0,
+      "notes": "Downsampled observations by 10; sampled inputs held on the ML grid."
+    }
+  ]
+}

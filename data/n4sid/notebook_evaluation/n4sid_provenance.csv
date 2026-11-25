@@ -1,0 +1,3 @@
+model,training_source,same_training_samples_as_ML,exported_Ts_min,evaluation_Ts_min,spectral_radius,C_rank,file
+N4SID / notebook,notebook,True,1.0,1,0.8213588809145945,5,/Users/nilsbulitta/Documents/GitHub/data_science_project_26fall/data/n4sid/n4sid_export_notebook.mat
+N4SID / original,original,False,0.10000000000002274,1,0.9820077030268328,4,/Users/nilsbulitta/Documents/GitHub/data_science_project_26fall/data/n4sid/n4sid_export_original.mat
