@@ -1,29 +1,29 @@
 dataset,model,reference,RMSE_reduction_percent
-Notebook test,"MLP 16-16 1 step recursive, sim error",N4SID / notebook,30.91510208572591
-Notebook test,"MLP 16-16 1 step recursive, 1 step error",N4SID / notebook,-7.880353478935231
-Notebook test,MLP 16-16 Multistep direct,N4SID / notebook,-86.55273122618257
+Notebook test,"MLP 16-16 1 step recursive, 1 step error",N4SID / notebook,-77.7128564589074
+Notebook test,"MLP 16-16 1 step recursive, sim error",N4SID / notebook,-77.7128564589074
+Notebook test,Linear regression Multistep direct,N4SID / notebook,8.979720609181541
+Notebook test,MLP 16-16 Multistep direct,N4SID / notebook,-92.24117440524637
 Notebook test,N4SID / notebook,N4SID / notebook,0.0
-Notebook test,N4SID / original,N4SID / notebook,0.8270121134396513
-Notebook test,Test Run MLP,N4SID / notebook,-646.1216783686416
-Notebook test,Persistence,N4SID / notebook,-1417.2620601271008
-Notebook test,"MLP 16-16 1 step recursive, sim error",N4SID / original,30.33899715384466
-Notebook test,"MLP 16-16 1 step recursive, 1 step error",N4SID / original,-8.779977066270162
-Notebook test,MLP 16-16 Multistep direct,N4SID / original,-88.10841056797854
-Notebook test,N4SID / notebook,N4SID / original,-0.8339086388983619
+Notebook test,N4SID / original,N4SID / notebook,0.827012113714698
+Notebook test,Persistence,N4SID / notebook,-1417.2620601228743
+Notebook test,"MLP 16-16 1 step recursive, 1 step error",N4SID / original,-79.19481932184826
+Notebook test,"MLP 16-16 1 step recursive, sim error",N4SID / original,-79.19481932184826
+Notebook test,Linear regression Multistep direct,N4SID / original,8.22069463593753
+Notebook test,MLP 16-16 Multistep direct,N4SID / original,-93.844290166669
+Notebook test,N4SID / notebook,N4SID / original,-0.8339086391780048
 Notebook test,N4SID / original,N4SID / original,0.0
-Notebook test,Test Run MLP,N4SID / original,-652.3436515012512
-Notebook test,Persistence,N4SID / original,-1429.9146395212279
-Original validation,"MLP 16-16 1 step recursive, sim error",N4SID / notebook,-10.53168573785539
-Original validation,N4SID / original,N4SID / notebook,49.71306823134493
-Original validation,"MLP 16-16 1 step recursive, 1 step error",N4SID / notebook,-21.724869541868742
-Original validation,MLP 16-16 Multistep direct,N4SID / notebook,-62.16991655743489
+Notebook test,Persistence,N4SID / original,-1429.9146395212092
+Original validation,N4SID / original,N4SID / notebook,49.713068231365384
+Original validation,"MLP 16-16 1 step recursive, 1 step error",N4SID / notebook,-72.62590617490272
+Original validation,"MLP 16-16 1 step recursive, sim error",N4SID / notebook,-72.62590617490272
+Original validation,MLP 16-16 Multistep direct,N4SID / notebook,-70.11062096908151
 Original validation,N4SID / notebook,N4SID / notebook,0.0
-Original validation,Persistence,N4SID / notebook,-254.77082839012888
-Original validation,Test Run MLP,N4SID / notebook,-884.2056239763082
-Original validation,"MLP 16-16 1 step recursive, sim error",N4SID / original,-119.802007898108
+Original validation,Linear regression Multistep direct,N4SID / notebook,13.636269514422994
+Original validation,Persistence,N4SID / notebook,-254.77082838998427
 Original validation,N4SID / original,N4SID / original,0.0
-Original validation,"MLP 16-16 1 step recursive, 1 step error",N4SID / original,-142.06064132499426
-Original validation,MLP 16-16 Multistep direct,N4SID / original,-222.48918526884336
-Original validation,N4SID / notebook,N4SID / original,-98.85882173135916
-Original validation,Persistence,N4SID / original,-605.4930891831924
-Original validation,Test Run MLP,N4SID / original,-1857.1797072530578
+Original validation,"MLP 16-16 1 step recursive, 1 step error",N4SID / original,-243.2818430226328
+Original validation,"MLP 16-16 1 step recursive, sim error",N4SID / original,-243.2818430226328
+Original validation,MLP 16-16 Multistep direct,N4SID / original,-238.2799764991515
+Original validation,N4SID / notebook,N4SID / original,-98.85882173144005
+Original validation,Linear regression Multistep direct,N4SID / original,-71.74189684693492
+Original validation,Persistence,N4SID / original,-605.493089183192

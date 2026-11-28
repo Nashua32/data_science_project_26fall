@@ -1,281 +1,281 @@
 dataset,model,minutes,scaled_RMSE
-Notebook test,Persistence,1.0,0.2888506779342373
-Notebook test,Persistence,2.0,0.48005317256246716
-Notebook test,Persistence,3.0,0.6512921055267754
-Notebook test,Persistence,4.0,0.8032368727441241
-Notebook test,Persistence,5.0,0.9375276269368071
-Notebook test,Persistence,6.0,1.0555505026385805
-Notebook test,Persistence,7.0,1.1633014633796281
-Notebook test,Persistence,8.0,1.2577131511959196
-Notebook test,Persistence,9.0,1.3444024931864744
-Notebook test,Persistence,10.0,1.4247054333010065
-Notebook test,Persistence,11.0,1.4961290886362812
-Notebook test,Persistence,12.0,1.5606482513409912
-Notebook test,Persistence,13.0,1.6186272581483392
-Notebook test,Persistence,14.0,1.6676920626875407
-Notebook test,Persistence,15.0,1.703876653705985
-Notebook test,Persistence,16.0,1.72874371639862
-Notebook test,Persistence,17.0,1.7408042428139894
-Notebook test,Persistence,18.0,1.739401633973516
-Notebook test,Persistence,19.0,1.7324377504853465
-Notebook test,Persistence,20.0,1.7239991540004564
-Notebook test,N4SID / notebook,1.0,0.2006326759093573
-Notebook test,N4SID / notebook,2.0,0.18701028983354018
-Notebook test,N4SID / notebook,3.0,0.20020818162340256
-Notebook test,N4SID / notebook,4.0,0.20793612726389749
-Notebook test,N4SID / notebook,5.0,0.21825637196727576
-Notebook test,N4SID / notebook,6.0,0.23016647377818272
-Notebook test,N4SID / notebook,7.0,0.23530294127682655
-Notebook test,N4SID / notebook,8.0,0.2365479164000829
-Notebook test,N4SID / notebook,9.0,0.23629722069223671
-Notebook test,N4SID / notebook,10.0,0.23542622897894575
-Notebook test,N4SID / notebook,11.0,0.23398475607215805
-Notebook test,N4SID / notebook,12.0,0.23195064429041767
-Notebook test,N4SID / notebook,13.0,0.22975074844639687
-Notebook test,N4SID / notebook,14.0,0.22727868996199843
-Notebook test,N4SID / notebook,15.0,0.22534159598410397
-Notebook test,N4SID / notebook,16.0,0.22433964958185448
-Notebook test,N4SID / notebook,17.0,0.22375394261719145
-Notebook test,N4SID / notebook,18.0,0.22339424843028954
-Notebook test,N4SID / notebook,19.0,0.22318454237657293
-Notebook test,N4SID / notebook,20.0,0.2230547456846937
-Notebook test,N4SID / original,1.0,0.1124943304520881
-Notebook test,N4SID / original,2.0,0.18540690151895758
-Notebook test,N4SID / original,3.0,0.24153379668703193
-Notebook test,N4SID / original,4.0,0.28573111727974804
-Notebook test,N4SID / original,5.0,0.32055322806163045
-Notebook test,N4SID / original,6.0,0.3474238220819167
-Notebook test,N4SID / original,7.0,0.36796264963479935
-Notebook test,N4SID / original,8.0,0.3835471913873711
-Notebook test,N4SID / original,9.0,0.39518672462713944
-Notebook test,N4SID / original,10.0,0.40368021192231573
-Notebook test,N4SID / original,11.0,0.4097824725651037
-Notebook test,N4SID / original,12.0,0.414080345253528
-Notebook test,N4SID / original,13.0,0.4169904759468446
-Notebook test,N4SID / original,14.0,0.41871898454373
-Notebook test,N4SID / original,15.0,0.4196564059487136
-Notebook test,N4SID / original,16.0,0.42049238173271686
-Notebook test,N4SID / original,17.0,0.4212297032517096
-Notebook test,N4SID / original,18.0,0.4218766627013468
-Notebook test,N4SID / original,19.0,0.42246289276642757
-Notebook test,N4SID / original,20.0,0.4230102246600837
-Notebook test,Test Run MLP,1.0,0.8398938988614274
-Notebook test,Test Run MLP,2.0,0.7477918343539077
-Notebook test,Test Run MLP,3.0,0.7519385409371315
-Notebook test,Test Run MLP,4.0,0.6712130445304467
-Notebook test,Test Run MLP,5.0,0.6502833913448488
-Notebook test,Test Run MLP,6.0,0.6602691076505625
-Notebook test,Test Run MLP,7.0,0.6298730857153937
-Notebook test,Test Run MLP,8.0,0.6436845039648449
-Notebook test,Test Run MLP,9.0,0.6605511768206
-Notebook test,Test Run MLP,10.0,0.6422112420722152
-Notebook test,Test Run MLP,11.0,0.6366855750669987
-Notebook test,Test Run MLP,12.0,0.6383249383123657
-Notebook test,Test Run MLP,13.0,0.6693995115724476
-Notebook test,Test Run MLP,14.0,0.6652601340042885
-Notebook test,Test Run MLP,15.0,0.6649763735952454
-Notebook test,Test Run MLP,16.0,0.674961967015047
-Notebook test,Test Run MLP,17.0,0.6927146615452288
-Notebook test,Test Run MLP,18.0,0.7207220512281293
-Notebook test,Test Run MLP,19.0,0.7461260264109304
-Notebook test,Test Run MLP,20.0,0.8248611920026353
-Notebook test,MLP 16-16 Multistep direct,1.0,0.19050869392597164
-Notebook test,MLP 16-16 Multistep direct,2.0,0.17532928199136705
-Notebook test,MLP 16-16 Multistep direct,3.0,0.18657995431617308
-Notebook test,MLP 16-16 Multistep direct,4.0,0.19979066911135115
-Notebook test,MLP 16-16 Multistep direct,5.0,0.204162710622394
-Notebook test,MLP 16-16 Multistep direct,6.0,0.19450899662148227
-Notebook test,MLP 16-16 Multistep direct,7.0,0.18872713231200483
-Notebook test,MLP 16-16 Multistep direct,8.0,0.20195431236836742
-Notebook test,MLP 16-16 Multistep direct,9.0,0.20586904962464286
-Notebook test,MLP 16-16 Multistep direct,10.0,0.21193834034364803
-Notebook test,MLP 16-16 Multistep direct,11.0,0.2082196487589872
-Notebook test,MLP 16-16 Multistep direct,12.0,0.19646090171427927
-Notebook test,MLP 16-16 Multistep direct,13.0,0.20773075560883542
-Notebook test,MLP 16-16 Multistep direct,14.0,0.21292057976538384
-Notebook test,MLP 16-16 Multistep direct,15.0,0.21326061478892797
-Notebook test,MLP 16-16 Multistep direct,16.0,0.21421132277714758
-Notebook test,MLP 16-16 Multistep direct,17.0,0.2217073787551726
-Notebook test,MLP 16-16 Multistep direct,18.0,0.23754059083019505
-Notebook test,MLP 16-16 Multistep direct,19.0,0.23811967035961484
-Notebook test,MLP 16-16 Multistep direct,20.0,0.239045897474929
-Notebook test,"MLP 16-16 1 step recursive, 1 step error",1.0,0.04997328656587842
-Notebook test,"MLP 16-16 1 step recursive, 1 step error",2.0,0.07032302933100776
-Notebook test,"MLP 16-16 1 step recursive, 1 step error",3.0,0.08424422807977062
-Notebook test,"MLP 16-16 1 step recursive, 1 step error",4.0,0.09324962151856347
-Notebook test,"MLP 16-16 1 step recursive, 1 step error",5.0,0.09948662563366774
-Notebook test,"MLP 16-16 1 step recursive, 1 step error",6.0,0.1035955277383626
-Notebook test,"MLP 16-16 1 step recursive, 1 step error",7.0,0.10625215154587252
-Notebook test,"MLP 16-16 1 step recursive, 1 step error",8.0,0.1079683103169565
-Notebook test,"MLP 16-16 1 step recursive, 1 step error",9.0,0.10902522109154629
-Notebook test,"MLP 16-16 1 step recursive, 1 step error",10.0,0.10963452821466162
-Notebook test,"MLP 16-16 1 step recursive, 1 step error",11.0,0.10991811747218169
-Notebook test,"MLP 16-16 1 step recursive, 1 step error",12.0,0.10990645170645527
-Notebook test,"MLP 16-16 1 step recursive, 1 step error",13.0,0.1097307942123734
-Notebook test,"MLP 16-16 1 step recursive, 1 step error",14.0,0.10936310067827086
-Notebook test,"MLP 16-16 1 step recursive, 1 step error",15.0,0.10889415531265301
-Notebook test,"MLP 16-16 1 step recursive, 1 step error",16.0,0.10858763034501842
-Notebook test,"MLP 16-16 1 step recursive, 1 step error",17.0,0.10845668935478986
-Notebook test,"MLP 16-16 1 step recursive, 1 step error",18.0,0.10843206356711177
-Notebook test,"MLP 16-16 1 step recursive, 1 step error",19.0,0.10847672232867764
-Notebook test,"MLP 16-16 1 step recursive, 1 step error",20.0,0.1085635221968636
-Notebook test,"MLP 16-16 1 step recursive, sim error",1.0,0.059982850941824685
-Notebook test,"MLP 16-16 1 step recursive, sim error",2.0,0.06253705972327911
-Notebook test,"MLP 16-16 1 step recursive, sim error",3.0,0.06725868296526526
-Notebook test,"MLP 16-16 1 step recursive, sim error",4.0,0.07158864658733424
-Notebook test,"MLP 16-16 1 step recursive, sim error",5.0,0.07480412932453949
-Notebook test,"MLP 16-16 1 step recursive, sim error",6.0,0.07722402944658056
-Notebook test,"MLP 16-16 1 step recursive, sim error",7.0,0.07875624784697915
-Notebook test,"MLP 16-16 1 step recursive, sim error",8.0,0.07952557906359635
-Notebook test,"MLP 16-16 1 step recursive, sim error",9.0,0.0797324809554129
-Notebook test,"MLP 16-16 1 step recursive, sim error",10.0,0.07957773800154501
-Notebook test,"MLP 16-16 1 step recursive, sim error",11.0,0.07925884965048294
-Notebook test,"MLP 16-16 1 step recursive, sim error",12.0,0.07886793579664154
-Notebook test,"MLP 16-16 1 step recursive, sim error",13.0,0.07846115161209086
-Notebook test,"MLP 16-16 1 step recursive, sim error",14.0,0.0780151899359365
-Notebook test,"MLP 16-16 1 step recursive, sim error",15.0,0.0775594365051264
-Notebook test,"MLP 16-16 1 step recursive, sim error",16.0,0.07725284543784135
-Notebook test,"MLP 16-16 1 step recursive, sim error",17.0,0.07692034039428616
-Notebook test,"MLP 16-16 1 step recursive, sim error",18.0,0.07663563881232371
-Notebook test,"MLP 16-16 1 step recursive, sim error",19.0,0.07647526672776149
-Notebook test,"MLP 16-16 1 step recursive, sim error",20.0,0.07642153194402036
-Original validation,Persistence,1.0,0.05184854233727852
-Original validation,Persistence,2.0,0.08757864550101395
-Original validation,Persistence,3.0,0.11510977748338018
-Original validation,Persistence,4.0,0.13633951164575783
-Original validation,Persistence,5.0,0.1523535231337308
-Original validation,Persistence,6.0,0.16491948310158466
-Original validation,Persistence,7.0,0.1754274941219967
+Notebook test,Persistence,1.0,0.288850677934237
+Notebook test,Persistence,2.0,0.48005317256246655
+Notebook test,Persistence,3.0,0.6512921055267745
+Notebook test,Persistence,4.0,0.803236872744123
+Notebook test,Persistence,5.0,0.9375276269368058
+Notebook test,Persistence,6.0,1.055550502638579
+Notebook test,Persistence,7.0,1.1633014633796261
+Notebook test,Persistence,8.0,1.257713151195918
+Notebook test,Persistence,9.0,1.3444024931864724
+Notebook test,Persistence,10.0,1.4247054333010039
+Notebook test,Persistence,11.0,1.4961290886362788
+Notebook test,Persistence,12.0,1.560648251340989
+Notebook test,Persistence,13.0,1.618627258148337
+Notebook test,Persistence,14.0,1.6676920626875382
+Notebook test,Persistence,15.0,1.7038766537059826
+Notebook test,Persistence,16.0,1.7287437163986175
+Notebook test,Persistence,17.0,1.7408042428139872
+Notebook test,Persistence,18.0,1.7394016339735137
+Notebook test,Persistence,19.0,1.7324377504853437
+Notebook test,Persistence,20.0,1.7239991540004547
+Notebook test,N4SID / notebook,1.0,0.2006326759113485
+Notebook test,N4SID / notebook,2.0,0.18701028983380547
+Notebook test,N4SID / notebook,3.0,0.200208181623768
+Notebook test,N4SID / notebook,4.0,0.2079361272637667
+Notebook test,N4SID / notebook,5.0,0.21825637196656633
+Notebook test,N4SID / notebook,6.0,0.2301664737773431
+Notebook test,N4SID / notebook,7.0,0.23530294127604015
+Notebook test,N4SID / notebook,8.0,0.23654791639935735
+Notebook test,N4SID / notebook,9.0,0.2362972206915945
+Notebook test,N4SID / notebook,10.0,0.2354262289783504
+Notebook test,N4SID / notebook,11.0,0.23398475607160954
+Notebook test,N4SID / notebook,12.0,0.23195064428990864
+Notebook test,N4SID / notebook,13.0,0.22975074844592502
+Notebook test,N4SID / notebook,14.0,0.22727868996157433
+Notebook test,N4SID / notebook,15.0,0.22534159598374215
+Notebook test,N4SID / notebook,16.0,0.22433964958156843
+Notebook test,N4SID / notebook,17.0,0.223753942616979
+Notebook test,N4SID / notebook,18.0,0.2233942484301399
+Notebook test,N4SID / notebook,19.0,0.22318454237647853
+Notebook test,N4SID / notebook,20.0,0.22305474568464434
+Notebook test,N4SID / original,1.0,0.112494330452088
+Notebook test,N4SID / original,2.0,0.18540690151895725
+Notebook test,N4SID / original,3.0,0.24153379668703154
+Notebook test,N4SID / original,4.0,0.28573111727974765
+Notebook test,N4SID / original,5.0,0.32055322806162984
+Notebook test,N4SID / original,6.0,0.347423822081916
+Notebook test,N4SID / original,7.0,0.36796264963479863
+Notebook test,N4SID / original,8.0,0.3835471913873704
+Notebook test,N4SID / original,9.0,0.3951867246271387
+Notebook test,N4SID / original,10.0,0.40368021192231496
+Notebook test,N4SID / original,11.0,0.4097824725651028
+Notebook test,N4SID / original,12.0,0.41408034525352716
+Notebook test,N4SID / original,13.0,0.4169904759468437
+Notebook test,N4SID / original,14.0,0.41871898454372924
+Notebook test,N4SID / original,15.0,0.41965640594871295
+Notebook test,N4SID / original,16.0,0.4204923817327162
+Notebook test,N4SID / original,17.0,0.4212297032517089
+Notebook test,N4SID / original,18.0,0.42187666270134605
+Notebook test,N4SID / original,19.0,0.42246289276642685
+Notebook test,N4SID / original,20.0,0.42301022466008287
+Notebook test,Linear regression Multistep direct,1.0,0.07157493463190051
+Notebook test,Linear regression Multistep direct,2.0,0.09890115252667168
+Notebook test,Linear regression Multistep direct,3.0,0.12240295237958808
+Notebook test,Linear regression Multistep direct,4.0,0.14117339978680182
+Notebook test,Linear regression Multistep direct,5.0,0.1567083430096177
+Notebook test,Linear regression Multistep direct,6.0,0.16345808694658046
+Notebook test,Linear regression Multistep direct,7.0,0.17015983755827607
+Notebook test,Linear regression Multistep direct,8.0,0.17627731880249933
+Notebook test,Linear regression Multistep direct,9.0,0.1813789214607229
+Notebook test,Linear regression Multistep direct,10.0,0.18330060503662912
+Notebook test,Linear regression Multistep direct,11.0,0.1849700409320935
+Notebook test,Linear regression Multistep direct,12.0,0.18792672967869248
+Notebook test,Linear regression Multistep direct,13.0,0.1888287673695199
+Notebook test,Linear regression Multistep direct,14.0,0.19128480303181727
+Notebook test,Linear regression Multistep direct,15.0,0.19113270644278763
+Notebook test,Linear regression Multistep direct,16.0,0.19127107408053526
+Notebook test,Linear regression Multistep direct,17.0,0.19206421523519326
+Notebook test,Linear regression Multistep direct,18.0,0.19248956900268066
+Notebook test,Linear regression Multistep direct,19.0,0.193345207715609
+Notebook test,Linear regression Multistep direct,20.0,0.19312594171755176
+Notebook test,MLP 16-16 Multistep direct,1.0,0.20550352190869733
+Notebook test,MLP 16-16 Multistep direct,2.0,0.18537082148878484
+Notebook test,MLP 16-16 Multistep direct,3.0,0.19494575900929106
+Notebook test,MLP 16-16 Multistep direct,4.0,0.19383939387929155
+Notebook test,MLP 16-16 Multistep direct,5.0,0.2084711635288266
+Notebook test,MLP 16-16 Multistep direct,6.0,0.20692173968070143
+Notebook test,MLP 16-16 Multistep direct,7.0,0.2017556645916139
+Notebook test,MLP 16-16 Multistep direct,8.0,0.20385524529925417
+Notebook test,MLP 16-16 Multistep direct,9.0,0.20828997117939735
+Notebook test,MLP 16-16 Multistep direct,10.0,0.20336131981795666
+Notebook test,MLP 16-16 Multistep direct,11.0,0.21429407227324665
+Notebook test,MLP 16-16 Multistep direct,12.0,0.21622009881808874
+Notebook test,MLP 16-16 Multistep direct,13.0,0.20974931005750183
+Notebook test,MLP 16-16 Multistep direct,14.0,0.20720549155016904
+Notebook test,MLP 16-16 Multistep direct,15.0,0.20432700941545068
+Notebook test,MLP 16-16 Multistep direct,16.0,0.2137036624493613
+Notebook test,MLP 16-16 Multistep direct,17.0,0.22443204987989268
+Notebook test,MLP 16-16 Multistep direct,18.0,0.235156489940768
+Notebook test,MLP 16-16 Multistep direct,19.0,0.2373005000985052
+Notebook test,MLP 16-16 Multistep direct,20.0,0.25453441056627857
+Notebook test,"MLP 16-16 1 step recursive, 1 step error",1.0,0.05714217845909674
+Notebook test,"MLP 16-16 1 step recursive, 1 step error",2.0,0.08890970580376412
+Notebook test,"MLP 16-16 1 step recursive, 1 step error",3.0,0.11086226347227338
+Notebook test,"MLP 16-16 1 step recursive, 1 step error",4.0,0.1262265481243162
+Notebook test,"MLP 16-16 1 step recursive, 1 step error",5.0,0.13737503753486385
+Notebook test,"MLP 16-16 1 step recursive, 1 step error",6.0,0.14540676431393176
+Notebook test,"MLP 16-16 1 step recursive, 1 step error",7.0,0.15109914813617772
+Notebook test,"MLP 16-16 1 step recursive, 1 step error",8.0,0.15505942353217333
+Notebook test,"MLP 16-16 1 step recursive, 1 step error",9.0,0.1575675603086555
+Notebook test,"MLP 16-16 1 step recursive, 1 step error",10.0,0.1589657252764817
+Notebook test,"MLP 16-16 1 step recursive, 1 step error",11.0,0.15946912031470395
+Notebook test,"MLP 16-16 1 step recursive, 1 step error",12.0,0.15942996583423727
+Notebook test,"MLP 16-16 1 step recursive, 1 step error",13.0,0.15907713890220573
+Notebook test,"MLP 16-16 1 step recursive, 1 step error",14.0,0.15851529604951015
+Notebook test,"MLP 16-16 1 step recursive, 1 step error",15.0,0.15814099740811352
+Notebook test,"MLP 16-16 1 step recursive, 1 step error",16.0,0.15786501615982504
+Notebook test,"MLP 16-16 1 step recursive, 1 step error",17.0,0.15756514473806707
+Notebook test,"MLP 16-16 1 step recursive, 1 step error",18.0,0.15731191646256157
+Notebook test,"MLP 16-16 1 step recursive, 1 step error",19.0,0.1570644820162768
+Notebook test,"MLP 16-16 1 step recursive, 1 step error",20.0,0.15682721561103996
+Notebook test,"MLP 16-16 1 step recursive, sim error",1.0,0.05714217845909674
+Notebook test,"MLP 16-16 1 step recursive, sim error",2.0,0.08890970580376412
+Notebook test,"MLP 16-16 1 step recursive, sim error",3.0,0.11086226347227338
+Notebook test,"MLP 16-16 1 step recursive, sim error",4.0,0.1262265481243162
+Notebook test,"MLP 16-16 1 step recursive, sim error",5.0,0.13737503753486385
+Notebook test,"MLP 16-16 1 step recursive, sim error",6.0,0.14540676431393176
+Notebook test,"MLP 16-16 1 step recursive, sim error",7.0,0.15109914813617772
+Notebook test,"MLP 16-16 1 step recursive, sim error",8.0,0.15505942353217333
+Notebook test,"MLP 16-16 1 step recursive, sim error",9.0,0.1575675603086555
+Notebook test,"MLP 16-16 1 step recursive, sim error",10.0,0.1589657252764817
+Notebook test,"MLP 16-16 1 step recursive, sim error",11.0,0.15946912031470395
+Notebook test,"MLP 16-16 1 step recursive, sim error",12.0,0.15942996583423727
+Notebook test,"MLP 16-16 1 step recursive, sim error",13.0,0.15907713890220573
+Notebook test,"MLP 16-16 1 step recursive, sim error",14.0,0.15851529604951015
+Notebook test,"MLP 16-16 1 step recursive, sim error",15.0,0.15814099740811352
+Notebook test,"MLP 16-16 1 step recursive, sim error",16.0,0.15786501615982504
+Notebook test,"MLP 16-16 1 step recursive, sim error",17.0,0.15756514473806707
+Notebook test,"MLP 16-16 1 step recursive, sim error",18.0,0.15731191646256157
+Notebook test,"MLP 16-16 1 step recursive, sim error",19.0,0.1570644820162768
+Notebook test,"MLP 16-16 1 step recursive, sim error",20.0,0.15682721561103996
+Original validation,Persistence,1.0,0.05184854233727851
+Original validation,Persistence,2.0,0.08757864550101392
+Original validation,Persistence,3.0,0.11510977748338014
+Original validation,Persistence,4.0,0.13633951164575775
+Original validation,Persistence,5.0,0.15235352313373074
+Original validation,Persistence,6.0,0.16491948310158464
+Original validation,Persistence,7.0,0.17542749412199674
 Original validation,Persistence,8.0,0.18433909466839812
-Original validation,Persistence,9.0,0.1907251231909382
-Original validation,Persistence,10.0,0.19602623949477324
+Original validation,Persistence,9.0,0.19072512319093826
+Original validation,Persistence,10.0,0.19602623949477319
 Original validation,Persistence,11.0,0.20059467190405525
-Original validation,Persistence,12.0,0.20426367083751013
-Original validation,Persistence,13.0,0.2069047818232523
+Original validation,Persistence,12.0,0.20426367083751007
+Original validation,Persistence,13.0,0.20690478182325223
 Original validation,Persistence,14.0,0.2092826467611562
-Original validation,Persistence,15.0,0.21146984368998567
-Original validation,Persistence,16.0,0.21338868551997303
-Original validation,Persistence,17.0,0.21521874608156724
-Original validation,Persistence,18.0,0.21684596525655378
-Original validation,Persistence,19.0,0.21861083886352303
-Original validation,Persistence,20.0,0.22045089065789625
-Original validation,N4SID / notebook,1.0,0.14844999898220304
-Original validation,N4SID / notebook,2.0,0.09993876554328592
-Original validation,N4SID / notebook,3.0,0.103796710644005
-Original validation,N4SID / notebook,4.0,0.08645338280524006
-Original validation,N4SID / notebook,5.0,0.05615695793488632
-Original validation,N4SID / notebook,6.0,0.04519478720653253
-Original validation,N4SID / notebook,7.0,0.04955134729355493
-Original validation,N4SID / notebook,8.0,0.06025283194985238
-Original validation,N4SID / notebook,9.0,0.07041280659596486
-Original validation,N4SID / notebook,10.0,0.07950321581706896
-Original validation,N4SID / notebook,11.0,0.08851315008808323
-Original validation,N4SID / notebook,12.0,0.0974445565186761
-Original validation,N4SID / notebook,13.0,0.10573109014399502
-Original validation,N4SID / notebook,14.0,0.11295156519662575
-Original validation,N4SID / notebook,15.0,0.11907513551114825
-Original validation,N4SID / notebook,16.0,0.12427577497350388
-Original validation,N4SID / notebook,17.0,0.12870066958009413
-Original validation,N4SID / notebook,18.0,0.13243610922303317
-Original validation,N4SID / notebook,19.0,0.13554062785036577
-Original validation,N4SID / notebook,20.0,0.13809310865153093
-Original validation,N4SID / original,1.0,0.026619936128856055
+Original validation,Persistence,15.0,0.2114698436899857
+Original validation,Persistence,16.0,0.21338868551997298
+Original validation,Persistence,17.0,0.2152187460815672
+Original validation,Persistence,18.0,0.21684596525655367
+Original validation,Persistence,19.0,0.218610838863523
+Original validation,Persistence,20.0,0.22045089065789622
+Original validation,N4SID / notebook,1.0,0.14844999898244363
+Original validation,N4SID / notebook,2.0,0.09993876554338532
+Original validation,N4SID / notebook,3.0,0.10379671064403989
+Original validation,N4SID / notebook,4.0,0.08645338280528346
+Original validation,N4SID / notebook,5.0,0.05615695793489278
+Original validation,N4SID / notebook,6.0,0.04519478720650728
+Original validation,N4SID / notebook,7.0,0.04955134729352669
+Original validation,N4SID / notebook,8.0,0.06025283194983365
+Original validation,N4SID / notebook,9.0,0.07041280659595503
+Original validation,N4SID / notebook,10.0,0.07950321581706495
+Original validation,N4SID / notebook,11.0,0.08851315008808047
+Original validation,N4SID / notebook,12.0,0.09744455651867613
+Original validation,N4SID / notebook,13.0,0.10573109014399601
+Original validation,N4SID / notebook,14.0,0.11295156519662665
+Original validation,N4SID / notebook,15.0,0.11907513551114884
+Original validation,N4SID / notebook,16.0,0.12427577497350421
+Original validation,N4SID / notebook,17.0,0.12870066958009468
+Original validation,N4SID / notebook,18.0,0.13243610922303378
+Original validation,N4SID / notebook,19.0,0.13554062785036614
+Original validation,N4SID / notebook,20.0,0.13809310865153113
+Original validation,N4SID / original,1.0,0.026619936128856114
 Original validation,N4SID / original,2.0,0.032893291042633804
-Original validation,N4SID / original,3.0,0.03724303600868897
-Original validation,N4SID / original,4.0,0.04085415960744941
-Original validation,N4SID / original,5.0,0.04357182492768216
-Original validation,N4SID / original,6.0,0.04567001105828071
-Original validation,N4SID / original,7.0,0.04726381989312313
-Original validation,N4SID / original,8.0,0.04851743724585152
-Original validation,N4SID / original,9.0,0.0494686527950086
-Original validation,N4SID / original,10.0,0.05025861003378293
-Original validation,N4SID / original,11.0,0.050895450689560605
-Original validation,N4SID / original,12.0,0.05136654564674629
-Original validation,N4SID / original,13.0,0.05179833367092022
-Original validation,N4SID / original,14.0,0.05217537840052936
-Original validation,N4SID / original,15.0,0.05250865222468781
-Original validation,N4SID / original,16.0,0.05280142971351695
-Original validation,N4SID / original,17.0,0.05296714351729025
-Original validation,N4SID / original,18.0,0.05305543992121412
-Original validation,N4SID / original,19.0,0.0531017082942515
-Original validation,N4SID / original,20.0,0.05314259459277045
-Original validation,Test Run MLP,1.0,0.4600744346516092
-Original validation,Test Run MLP,2.0,0.49617451908659777
-Original validation,Test Run MLP,3.0,0.4906441266964883
-Original validation,Test Run MLP,4.0,0.5221713522762671
-Original validation,Test Run MLP,5.0,0.5305956631900259
-Original validation,Test Run MLP,6.0,0.46556815044382155
-Original validation,Test Run MLP,7.0,0.49572645683076305
-Original validation,Test Run MLP,8.0,0.45603721919114026
-Original validation,Test Run MLP,9.0,0.42418333571920486
-Original validation,Test Run MLP,10.0,0.4290738646098435
-Original validation,Test Run MLP,11.0,0.3899596213950148
-Original validation,Test Run MLP,12.0,0.3876467086346442
-Original validation,Test Run MLP,13.0,0.3852690262412145
-Original validation,Test Run MLP,14.0,0.351463631329583
-Original validation,Test Run MLP,15.0,0.3490239525871899
-Original validation,Test Run MLP,16.0,0.34664491988121005
-Original validation,Test Run MLP,17.0,0.35532802295461113
-Original validation,Test Run MLP,18.0,0.33193981014056195
-Original validation,Test Run MLP,19.0,0.3383385900394799
-Original validation,Test Run MLP,20.0,0.3124617848580839
-Original validation,MLP 16-16 Multistep direct,1.0,0.09702241808764132
-Original validation,MLP 16-16 Multistep direct,2.0,0.07425070311801157
-Original validation,MLP 16-16 Multistep direct,3.0,0.07280958963536006
-Original validation,MLP 16-16 Multistep direct,4.0,0.08263187766511956
-Original validation,MLP 16-16 Multistep direct,5.0,0.08413152781774176
-Original validation,MLP 16-16 Multistep direct,6.0,0.07783536307889574
-Original validation,MLP 16-16 Multistep direct,7.0,0.07759680744822617
-Original validation,MLP 16-16 Multistep direct,8.0,0.08060948649963956
-Original validation,MLP 16-16 Multistep direct,9.0,0.08209308559391551
-Original validation,MLP 16-16 Multistep direct,10.0,0.08541673862026831
-Original validation,MLP 16-16 Multistep direct,11.0,0.08818153749881483
-Original validation,MLP 16-16 Multistep direct,12.0,0.09069019438783837
-Original validation,MLP 16-16 Multistep direct,13.0,0.09572786337657528
-Original validation,MLP 16-16 Multistep direct,14.0,0.09864155226230262
-Original validation,MLP 16-16 Multistep direct,15.0,0.10248138687067312
-Original validation,MLP 16-16 Multistep direct,16.0,0.10109853556521388
-Original validation,MLP 16-16 Multistep direct,17.0,0.09933231089056273
-Original validation,MLP 16-16 Multistep direct,18.0,0.10348751731749133
-Original validation,MLP 16-16 Multistep direct,19.0,0.10811058894698163
-Original validation,MLP 16-16 Multistep direct,20.0,0.12026654475958695
-Original validation,"MLP 16-16 1 step recursive, 1 step error",1.0,0.027422804241443652
-Original validation,"MLP 16-16 1 step recursive, 1 step error",2.0,0.03576441674919389
-Original validation,"MLP 16-16 1 step recursive, 1 step error",3.0,0.04092929789195015
-Original validation,"MLP 16-16 1 step recursive, 1 step error",4.0,0.04522697320770824
-Original validation,"MLP 16-16 1 step recursive, 1 step error",5.0,0.04851429111811903
-Original validation,"MLP 16-16 1 step recursive, 1 step error",6.0,0.05116262495012365
-Original validation,"MLP 16-16 1 step recursive, 1 step error",7.0,0.053271170588711225
-Original validation,"MLP 16-16 1 step recursive, 1 step error",8.0,0.055012777519178345
-Original validation,"MLP 16-16 1 step recursive, 1 step error",9.0,0.056401283454197426
-Original validation,"MLP 16-16 1 step recursive, 1 step error",10.0,0.057576067936634855
-Original validation,"MLP 16-16 1 step recursive, 1 step error",11.0,0.05854318571600135
-Original validation,"MLP 16-16 1 step recursive, 1 step error",12.0,0.059251657302113105
-Original validation,"MLP 16-16 1 step recursive, 1 step error",13.0,0.05987551021266536
-Original validation,"MLP 16-16 1 step recursive, 1 step error",14.0,0.060394934546536765
-Original validation,"MLP 16-16 1 step recursive, 1 step error",15.0,0.06082997930674773
-Original validation,"MLP 16-16 1 step recursive, 1 step error",16.0,0.06127234027605497
-Original validation,"MLP 16-16 1 step recursive, 1 step error",17.0,0.06161985977602775
-Original validation,"MLP 16-16 1 step recursive, 1 step error",18.0,0.06189001631049055
-Original validation,"MLP 16-16 1 step recursive, 1 step error",19.0,0.062067366454886384
-Original validation,"MLP 16-16 1 step recursive, 1 step error",20.0,0.062177685618103065
-Original validation,"MLP 16-16 1 step recursive, sim error",1.0,0.03160500804327032
-Original validation,"MLP 16-16 1 step recursive, sim error",2.0,0.03418352904768889
-Original validation,"MLP 16-16 1 step recursive, sim error",3.0,0.03647384300070415
-Original validation,"MLP 16-16 1 step recursive, sim error",4.0,0.03869389554055048
-Original validation,"MLP 16-16 1 step recursive, sim error",5.0,0.04077853796550658
-Original validation,"MLP 16-16 1 step recursive, sim error",6.0,0.042621383211432315
-Original validation,"MLP 16-16 1 step recursive, sim error",7.0,0.044253909474430635
-Original validation,"MLP 16-16 1 step recursive, sim error",8.0,0.04570802898421434
-Original validation,"MLP 16-16 1 step recursive, sim error",9.0,0.04690760272943759
-Original validation,"MLP 16-16 1 step recursive, sim error",10.0,0.04796347941653618
-Original validation,"MLP 16-16 1 step recursive, sim error",11.0,0.04885617647749317
-Original validation,"MLP 16-16 1 step recursive, sim error",12.0,0.04949483392269679
-Original validation,"MLP 16-16 1 step recursive, sim error",13.0,0.05007577047055779
-Original validation,"MLP 16-16 1 step recursive, sim error",14.0,0.050548511796261436
-Original validation,"MLP 16-16 1 step recursive, sim error",15.0,0.05093958033035224
-Original validation,"MLP 16-16 1 step recursive, sim error",16.0,0.05131991525886678
-Original validation,"MLP 16-16 1 step recursive, sim error",17.0,0.05162053655215579
-Original validation,"MLP 16-16 1 step recursive, sim error",18.0,0.0518625330411839
-Original validation,"MLP 16-16 1 step recursive, sim error",19.0,0.05202884887775387
-Original validation,"MLP 16-16 1 step recursive, sim error",20.0,0.05214831236693906
+Original validation,N4SID / original,3.0,0.03724303600868899
+Original validation,N4SID / original,4.0,0.04085415960744942
+Original validation,N4SID / original,5.0,0.04357182492768215
+Original validation,N4SID / original,6.0,0.04567001105828066
+Original validation,N4SID / original,7.0,0.047263819893123095
+Original validation,N4SID / original,8.0,0.04851743724585143
+Original validation,N4SID / original,9.0,0.04946865279500851
+Original validation,N4SID / original,10.0,0.05025861003378285
+Original validation,N4SID / original,11.0,0.050895450689560515
+Original validation,N4SID / original,12.0,0.05136654564674618
+Original validation,N4SID / original,13.0,0.0517983336709201
+Original validation,N4SID / original,14.0,0.05217537840052923
+Original validation,N4SID / original,15.0,0.052508652224687674
+Original validation,N4SID / original,16.0,0.05280142971351688
+Original validation,N4SID / original,17.0,0.05296714351729009
+Original validation,N4SID / original,18.0,0.05305543992121402
+Original validation,N4SID / original,19.0,0.053101708294251385
+Original validation,N4SID / original,20.0,0.05314259459277034
+Original validation,Linear regression Multistep direct,1.0,0.039589219793301746
+Original validation,Linear regression Multistep direct,2.0,0.046219436542170964
+Original validation,Linear regression Multistep direct,3.0,0.05885379586312936
+Original validation,Linear regression Multistep direct,4.0,0.07716299830252708
+Original validation,Linear regression Multistep direct,5.0,0.08621550847457359
+Original validation,Linear regression Multistep direct,6.0,0.08909445578443308
+Original validation,Linear regression Multistep direct,7.0,0.09350737348924626
+Original validation,Linear regression Multistep direct,8.0,0.10011570224071158
+Original validation,Linear regression Multistep direct,9.0,0.10710184692404395
+Original validation,Linear regression Multistep direct,10.0,0.11333420636387172
+Original validation,Linear regression Multistep direct,11.0,0.11821426211975963
+Original validation,Linear regression Multistep direct,12.0,0.12308912887993856
+Original validation,Linear regression Multistep direct,13.0,0.12687419634479963
+Original validation,Linear regression Multistep direct,14.0,0.13019109779090793
+Original validation,Linear regression Multistep direct,15.0,0.1325995081882438
+Original validation,Linear regression Multistep direct,16.0,0.13456726891552023
+Original validation,Linear regression Multistep direct,17.0,0.1368336632686904
+Original validation,Linear regression Multistep direct,18.0,0.13826170969198623
+Original validation,Linear regression Multistep direct,19.0,0.14015534139119767
+Original validation,Linear regression Multistep direct,20.0,0.14171585190088287
+Original validation,MLP 16-16 Multistep direct,1.0,0.09781619709655855
+Original validation,MLP 16-16 Multistep direct,2.0,0.07542943750263224
+Original validation,MLP 16-16 Multistep direct,3.0,0.06863132324559477
+Original validation,MLP 16-16 Multistep direct,4.0,0.0772704128634283
+Original validation,MLP 16-16 Multistep direct,5.0,0.08974192137440845
+Original validation,MLP 16-16 Multistep direct,6.0,0.07866503330036016
+Original validation,MLP 16-16 Multistep direct,7.0,0.07242953540696453
+Original validation,MLP 16-16 Multistep direct,8.0,0.07637827588184613
+Original validation,MLP 16-16 Multistep direct,9.0,0.0859663480325392
+Original validation,MLP 16-16 Multistep direct,10.0,0.08483476250461529
+Original validation,MLP 16-16 Multistep direct,11.0,0.09081373747485275
+Original validation,MLP 16-16 Multistep direct,12.0,0.0835956094393252
+Original validation,MLP 16-16 Multistep direct,13.0,0.07071724920521236
+Original validation,MLP 16-16 Multistep direct,14.0,0.07619741489012638
+Original validation,MLP 16-16 Multistep direct,15.0,0.08220155271500734
+Original validation,MLP 16-16 Multistep direct,16.0,0.09209042217556195
+Original validation,MLP 16-16 Multistep direct,17.0,0.09555829699796214
+Original validation,MLP 16-16 Multistep direct,18.0,0.09630059220163507
+Original validation,MLP 16-16 Multistep direct,19.0,0.10195907661925747
+Original validation,MLP 16-16 Multistep direct,20.0,0.1054452803373173
+Original validation,"MLP 16-16 1 step recursive, 1 step error",1.0,0.03120646174148236
+Original validation,"MLP 16-16 1 step recursive, 1 step error",2.0,0.038354043164698155
+Original validation,"MLP 16-16 1 step recursive, 1 step error",3.0,0.04325176547078444
+Original validation,"MLP 16-16 1 step recursive, 1 step error",4.0,0.04805463142865989
+Original validation,"MLP 16-16 1 step recursive, 1 step error",5.0,0.05270618339009094
+Original validation,"MLP 16-16 1 step recursive, 1 step error",6.0,0.057147804902092446
+Original validation,"MLP 16-16 1 step recursive, 1 step error",7.0,0.06121206944511804
+Original validation,"MLP 16-16 1 step recursive, 1 step error",8.0,0.0649770717500004
+Original validation,"MLP 16-16 1 step recursive, 1 step error",9.0,0.06833562412171156
+Original validation,"MLP 16-16 1 step recursive, 1 step error",10.0,0.07142631968369832
+Original validation,"MLP 16-16 1 step recursive, 1 step error",11.0,0.07420856473338196
+Original validation,"MLP 16-16 1 step recursive, 1 step error",12.0,0.0766468872011717
+Original validation,"MLP 16-16 1 step recursive, 1 step error",13.0,0.07886689612951985
+Original validation,"MLP 16-16 1 step recursive, 1 step error",14.0,0.08085067765402497
+Original validation,"MLP 16-16 1 step recursive, 1 step error",15.0,0.08262952303271222
+Original validation,"MLP 16-16 1 step recursive, 1 step error",16.0,0.08434331988684156
+Original validation,"MLP 16-16 1 step recursive, 1 step error",17.0,0.08583983850040655
+Original validation,"MLP 16-16 1 step recursive, 1 step error",18.0,0.08713778392670624
+Original validation,"MLP 16-16 1 step recursive, 1 step error",19.0,0.0882080964287401
+Original validation,"MLP 16-16 1 step recursive, 1 step error",20.0,0.08909108818377377
+Original validation,"MLP 16-16 1 step recursive, sim error",1.0,0.03120646174148236
+Original validation,"MLP 16-16 1 step recursive, sim error",2.0,0.038354043164698155
+Original validation,"MLP 16-16 1 step recursive, sim error",3.0,0.04325176547078444
+Original validation,"MLP 16-16 1 step recursive, sim error",4.0,0.04805463142865989
+Original validation,"MLP 16-16 1 step recursive, sim error",5.0,0.05270618339009094
+Original validation,"MLP 16-16 1 step recursive, sim error",6.0,0.057147804902092446
+Original validation,"MLP 16-16 1 step recursive, sim error",7.0,0.06121206944511804
+Original validation,"MLP 16-16 1 step recursive, sim error",8.0,0.0649770717500004
+Original validation,"MLP 16-16 1 step recursive, sim error",9.0,0.06833562412171156
+Original validation,"MLP 16-16 1 step recursive, sim error",10.0,0.07142631968369832
+Original validation,"MLP 16-16 1 step recursive, sim error",11.0,0.07420856473338196
+Original validation,"MLP 16-16 1 step recursive, sim error",12.0,0.0766468872011717
+Original validation,"MLP 16-16 1 step recursive, sim error",13.0,0.07886689612951985
+Original validation,"MLP 16-16 1 step recursive, sim error",14.0,0.08085067765402497
+Original validation,"MLP 16-16 1 step recursive, sim error",15.0,0.08262952303271222
+Original validation,"MLP 16-16 1 step recursive, sim error",16.0,0.08434331988684156
+Original validation,"MLP 16-16 1 step recursive, sim error",17.0,0.08583983850040655
+Original validation,"MLP 16-16 1 step recursive, sim error",18.0,0.08713778392670624
+Original validation,"MLP 16-16 1 step recursive, sim error",19.0,0.0882080964287401
+Original validation,"MLP 16-16 1 step recursive, sim error",20.0,0.08909108818377377
